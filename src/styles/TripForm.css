@@ -1,0 +1,30 @@
+.trip-form-container {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.trip-form-card {
+  background-color: var(--card-bg);
+  padding: 40px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-lg);
+  width: 100%;
+  max-width: 800px;
+}
+
+.trip-form-card h2 {
+  margin-bottom: 30px;
+  color: var(--text-primary);
+  font-size: 1.8rem;
+}
+
+@media (max-width: 768px) {
+  .trip-form-card {
+    padding: 30px 20px;
+  }
+
+  .trip-form-card h2 {
+    font-size: 1.5rem;
+  }
+}
