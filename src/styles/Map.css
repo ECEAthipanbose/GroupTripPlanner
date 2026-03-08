@@ -1,0 +1,22 @@
+.map-container {
+  width: 100%;
+  height: 500px;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.map-error {
+  background-color: #fee2e2;
+  color: #991b1b;
+  padding: 20px;
+  border-radius: var(--border-radius);
+  text-align: center;
+  border: 1px solid #fecaca;
+}
+
+@media (max-width: 768px) {
+  .map-container {
+    height: 400px;
+  }
+}
